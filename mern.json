@@ -35,6 +35,28 @@
       ]
     },
     {
+      "name": "functional-a",
+      "description": "Generates a functional react component in shared components",
+      "usage": "functional-s [component-name]",
+      "files": [
+        {
+          "blueprint-path": "config/blueprints/functional-component-alternative.ejs",
+          "target-path": "client/components/<%= helpers.capitalize(name) %>.js"
+        }
+      ]
+    },
+    {
+      "name": "functional-x",
+      "description": "Generates a functional react component in shared components",
+      "usage": "functional-s [component-name]",
+      "files": [
+        {
+          "blueprint-path": "config/blueprints/my-arrow-function.ejs",
+          "target-path": "client/components/<%= helpers.capitalize(name) %>.js"
+        }
+      ]
+    },
+    {
       "name": "functional-m",
       "description": "Generates a functional react component in a module directory",
       "usage": "functional-m <module-name>/<component-name>",
